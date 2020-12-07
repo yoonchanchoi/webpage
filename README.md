@@ -69,14 +69,14 @@
 
       .map-item-butoon{
         padding: .5rem 1rem;
-        font-size: 0.8rem;
+        font-size: 1.25rem;
         line-height: 1.5;
-        border-radius: 1rem;
+        border-radius: .3rem;
         color: #007bff;
         background-color: transparent;
         background-image: none;
         border-color: #007bff; 
-        margin-top: 150px;
+        margin-top: 100px;
         align-items: center;
 
       }
@@ -97,51 +97,29 @@
     </div>
     <div class="main">
       <div class="title">
-        한림대학교 편의시설
+        한림대학교 도서관
       </div>
         <div class="map">
         <div class="map-item">
           <div class="map-item-title">
-            편의점1 이름
+            도서관 위치
           </div>
           <div class="map-item-detail">
-            편의점1 위치 기술
+            도서관 위치 설명
           </div>
           <button class ="map-item-butoon">
-            편의점1 위치 지도 또는 사진
+            도서관 위치 사진
           </button>
         </div>
         <div class="map-item">
           <div class="map-item-title">
-            편의점2 이름
+            도서관 특색
           </div>
           <div class="map-item-detail">
-            편의점2 위치 기술
+            도서관 내부 설명
           </div>
           <button class ="map-item-butoon">
-            편의점2 위치 지도 또는 사진
-          </button>
-        </div>
-        <div class="map-item">
-          <div class="map-item-title">
-            카페1 이름
-          </div>
-          <div class="map-item-detail">
-            카페1 위치 기술
-          </div>
-          <button class ="map-item-butoon">
-            카페1 위치 지도 또는 사진
-          </button>
-        </div>
-        <div class="map-item">
-          <div class="map-item-title">
-            카페2 이름
-          </div>
-          <div class="map-item-detail">
-            카페2 위치 기술
-          </div>
-          <button class ="map-item-butoon">
-            카페2 위치 지도 또는 사진
+            도서관 내부 시설 사진
           </button>
         </div>
         </div>
