@@ -38,11 +38,10 @@
         width: 800px;
         margin: 0 auto;
         margin-top: 60px;
-        
       }
       .map{
         display: flex;
-        
+
       }
       .map-item {
         width: 300px;
@@ -50,10 +49,8 @@
         border: 1px solid black;
         margin: 20px;
         border-radius: 4px;
-        text-align: center
       }
       .map-item-title{
-        
         font-size: 1.5rem;
         background: rgba(0,0,0,.03);
         text-align: center;
@@ -67,22 +64,10 @@
         padding: 20px;
       }
 
-      .map-item-butoon{
-        padding: .5rem 1rem;
-        font-size: 1.25rem;
-        line-height: 1.5;
-        border-radius: .3rem;
-        color: #007bff;
-        background-color: transparent;
-        background-image: none;
-        border-color: #007bff; 
-        margin-top: 100px;
-        align-items: center;
-
-      }
+      
       .map-item-detail{
-        margin-bottom: 5px;
-        font-size: 15px;
+        text-align: 10px
+        font-size: 18px;
 
       }
     </style>
@@ -97,31 +82,35 @@
     </div>
     <div class="main">
       <div class="title">
-        한림대학교 지도
+        한림대학교
+      </div>
+      <div class="subtitle">
+        한림대학교의 간단한 소개 하는곳 입니다.
       </div>
         <div class="map">
         <div class="map-item">
           <div class="map-item-title">
-            지도
+            배경
           </div>
           <div class="map-item-detail">
-            10 uesersll
+            배경 내용
           </div>
-          <button class ="map-item-butoon">
-            click me
-          </button>
         </div>
         <div class="map-item">
           <div class="map-item-title">
-            지도
+            도서관
           </div>
           <div class="map-item-detail">
-            10 uesersll
+            도서관 내용
           </div>
-          <button class ="map-item-butoon">
-            click me
-          </button>
         </div>
+        <div class="map-item">
+          <div class="map-item-title">
+            학과 소개
+          </div>
+          <div class="map-item-detail">
+            학과 소개 내용
+          </div>
         </div>
       </div>
     </div>
