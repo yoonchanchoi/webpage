@@ -38,10 +38,11 @@
         width: 800px;
         margin: 0 auto;
         margin-top: 60px;
+        
       }
       .map{
         display: flex;
-
+        
       }
       .map-item {
         width: 300px;
@@ -49,8 +50,10 @@
         border: 1px solid black;
         margin: 20px;
         border-radius: 4px;
+        text-align: center
       }
       .map-item-title{
+        
         font-size: 1.5rem;
         background: rgba(0,0,0,.03);
         text-align: center;
@@ -64,10 +67,22 @@
         padding: 20px;
       }
 
-      
+      .map-item-butoon{
+        padding: .5rem 1rem;
+        font-size: 0.8rem;
+        line-height: 1.5;
+        border-radius: 1rem;
+        color: #007bff;
+        background-color: transparent;
+        background-image: none;
+        border-color: #007bff; 
+        margin-top: 150px;
+        align-items: center;
+
+      }
       .map-item-detail{
-        text-align: 10px
-        font-size: 18px;
+        margin-bottom: 5px;
+        font-size: 15px;
 
       }
     </style>
@@ -82,35 +97,53 @@
     </div>
     <div class="main">
       <div class="title">
-        한림대학교
-      </div>
-      <div class="subtitle">
-        한림대학교의 간단한 소개 하는곳 입니다.
+        한림대학교 편의시설
       </div>
         <div class="map">
         <div class="map-item">
           <div class="map-item-title">
-            배경
+            편의점1 이름
           </div>
           <div class="map-item-detail">
-            배경 내용
+            편의점1 위치 기술
           </div>
+          <button class ="map-item-butoon">
+            편의점1 위치 지도 또는 사진
+          </button>
         </div>
         <div class="map-item">
           <div class="map-item-title">
-            도서관
+            편의점2 이름
           </div>
           <div class="map-item-detail">
-            도서관 내용
+            편의점2 위치 기술
           </div>
+          <button class ="map-item-butoon">
+            편의점2 위치 지도 또는 사진
+          </button>
         </div>
         <div class="map-item">
           <div class="map-item-title">
-            학과 소개
+            카페1 이름
           </div>
           <div class="map-item-detail">
-            학과 소개 내용
+            카페1 위치 기술
           </div>
+          <button class ="map-item-butoon">
+            카페1 위치 지도 또는 사진
+          </button>
+        </div>
+        <div class="map-item">
+          <div class="map-item-title">
+            카페2 이름
+          </div>
+          <div class="map-item-detail">
+            카페2 위치 기술
+          </div>
+          <button class ="map-item-butoon">
+            카페2 위치 지도 또는 사진
+          </button>
+        </div>
         </div>
       </div>
     </div>
